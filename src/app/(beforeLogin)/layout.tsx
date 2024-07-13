@@ -1,4 +1,4 @@
-import style from '@/app/page.module.css';
+import style from '@/app/(beforeLogin)/_component/main.module.css';
 
 export default function Layout({
   children,
