@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+.git
+.next
+node_modules
+
 
 # testing
 /coverage

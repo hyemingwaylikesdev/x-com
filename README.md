@@ -34,3 +34,58 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+```
+x-com
+├─ .eslintrc.json
+├─ README.md
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ 5Udwvqim.jpg
+│  ├─ favicon.png
+│  ├─ mockServiceWorker.js
+│  ├─ yRsRRjGO.jpg
+│  └─ zlogo.png
+├─ src
+│  └─ app
+│     ├─ (afterLogin)
+│     │  ├─ [username]
+│     │  │  └─ status
+│     │  │     └─ [id]
+│     │  │        └─ page.tsx
+│     │  ├─ home
+│     │  │  ├─ layout.tsx
+│     │  │  └─ page.tsx
+│     │  └─ layout.tsx
+│     ├─ (beforeLogin)
+│     │  ├─ @modal
+│     │  │  ├─ (.)i
+│     │  │  │  └─ flow
+│     │  │  │     ├─ default.tsx
+│     │  │  │     ├─ login
+│     │  │  │     │  └─ page.tsx
+│     │  │  │     └─ signUp
+│     │  │  │        └─ page.tsx
+│     │  │  ├─ login.module.css
+│     │  │  └─ page.tsx
+│     │  ├─ i
+│     │  │  └─ flow
+│     │  │     ├─ default.tsx
+│     │  │     ├─ login
+│     │  │     │  └─ page.tsx
+│     │  │     └─ signUp
+│     │  │        └─ page.tsx
+│     │  ├─ layout.tsx
+│     │  ├─ login
+│     │  │  └─ page.tsx
+│     │  └─ page.tsx
+│     ├─ favicon.ico
+│     ├─ globals.css
+│     ├─ layout.tsx
+│     └─ page.module.css
+├─ tsconfig.json
+└─ yarn.lock
+
+```
